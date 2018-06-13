@@ -1,5 +1,11 @@
+#Counting Inversions - Rudimentary Method. Uses Brute-Forcing
+#Time Complexity - O(nlogn) using Modified Merge Sort.
+#Given Code's Time Complexity - O(n*n)
+#Uses - Inversion Count for an array indicates  how far (or close) the array is from being sorted.
+#No. of inversions = MAX if array is sorted in reverse order, i.e, descending order
+
+################################################################################################################################
 import time
-import random
 L= []
 n=int(raw_input("Enter range of array : "))
 for i in range(n):
