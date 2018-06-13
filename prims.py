@@ -1,3 +1,10 @@
+#Prim's Algorithm - Provides an MST for a Graph
+#Greedy Algorithm
+#Time Complexity - O(ElogV)
+#Uses - Cluster analysis : k clustering problem can be viewed as finding an MST and deleting the k-1 most expensive edges.
+#Works best when no. of edges < = no. of nodes in the graph
+
+############################################################################################################################################
 import time
 graph=dict()
 n=int(raw_input("Enter no. of nodes in the graph : "))
