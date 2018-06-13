@@ -1,3 +1,13 @@
+#Gale Shapley Algorithm
+#Gives a Stable Match and a Perfect Match
+#For N applicants and N institutions , each applicant is set up with the best possible match of institute
+#Time Complexity - O(n*n)
+#Uses - Hospital / Residents Problem, College Admissions Problem
+#Given Code runs a date simulation for N men and N women
+
+# BONUS : QuantEcon/MatchingMarkets.py is a Python package that allows direct use of Gale-Shapley Algorithm
+###############################################################################################################################
+
 import time
 menpref=dict();womenpref=dict()
 n=int(input("Enter no. of men  : "))
