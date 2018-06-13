@@ -1,3 +1,10 @@
+#Kruskal's Algorithm - Gives a Minimum Spanning Tree of a Graph
+#Time Complexity - O(ElogV)
+#Uses - Spanning Trees, Tour Operations, TV Networks
+#Given Algorithm uses Union-Find Data Structure
+
+#################################################################################################################################
+
 import time
 graph=[]
 n=int(raw_input("Enter no. of nodes : "))
