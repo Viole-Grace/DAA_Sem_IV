@@ -1,3 +1,9 @@
+#Knapsack Algorithm - The most widely algorithm for Combinatorial Optimization Problems
+#Uses - Download Manager software - breaks data into chunks, utilizes full size limit by retrieving max data in one go
+#Time Complexity - O(n*W), W = max Weight, n = number of items
+
+#################################################################################################################################
+
 import time
 def Knapsack(W, wt, val, n):
     K = [[0 for x in range(W+1)] for x in range(n+1)]
