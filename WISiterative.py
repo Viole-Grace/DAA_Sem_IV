@@ -1,3 +1,10 @@
+#UPDATE : User Input
+#Program : Weighted Interval Scheduling - using Iterative Method.
+#Time Complexity - O(nlogn), [ O(nlogn) to sort jobs + O(n) to put intervals back together. ]
+
+#Uses a list of list representation ; Inner list elements : Start | End | Weight.
+#Given Code's Complexity : O(n*n)
+******************************************************************************************************************************
 #intervals=[[0, 3, 2],[1,4,4],[3,5,4],[2,6,7],[5,7,2]]
 intervals = []
 n=int(raw_input("Enter no. of jobs : "))
