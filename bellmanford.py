@@ -1,3 +1,8 @@
+#Bellman Ford Algorithm - Works similar to Dijkstra, but takes care of -ve edge weights as well
+#Uses - Profit Transactions
+#Time Complexity - O(V*E)
+
+*********************************************************************************************************************************
 def bf(adj_list,n,s):
 	distance = [999 for i in range(n+1)]
 	distance[s] = 0
