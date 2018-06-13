@@ -1,3 +1,10 @@
+#Insertion Sort -  stable, adaptive, low-overhead, can be online/incremental
+#Works extremely well on 'almost-sorted' arrays
+#Faster than Quicksort / Mergesort / Heapsort if data size is small ( < 20 )
+#Time Complexity - O(n*n)
+
+#################################################################################################################################
+
 import time
 import random
 def insertionSort(arr):
