@@ -1,3 +1,9 @@
+#Selection Sort - Sorts the smallest element of the array first [ Exact Opposite of Bubble Sort ]
+#Time Complexity - O(n*n)
+#Uses - Writing / Swapping on Flash Memory [ O(n) number of swaps ], Sorting Small unsorted arrays (size < 20)
+
+#################################################################################################################################
+
 import random
 import time
 L = []
