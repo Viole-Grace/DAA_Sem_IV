@@ -1,3 +1,11 @@
+#Dijkstra's Algorithm - Single Source Shortest Path Algorithm
+#Given V vertices and E edges for a graph, it provides the shortest distance to each vertex V from source vertex S
+#Limitation - Fails when edge weight is negetive
+#Time Complexity - O(ElogV)
+#Uses - GPS in Real Time, Routing Tables in Data Communications, Solving Looping Problem in switches
+
+###############################################################################################################################
+
 import time
 graph=dict()
 n=int(raw_input("Enter no. of nodes in the graph"))
@@ -39,7 +47,10 @@ def Dijkstra(s):
 		print "{",i,":",path[i],"}" #printing the dictionary with the weights and path traversed
 	print "\nCost from source to node using Greedy Algorithm : \n" 
 	return d
+print "Given Graph : ",graph
+source=int(raw_input("Enter source node from one of the graph vertices : ")
 start=time.clock()
-print Dijkstra(1)
+print Dijkstra(source)
+#print Dijkstra(1) for all nodes from V = 1 to n.	   
 end=time.clock()
 print "The Program Ran for: ",end-start,"seconds"
