@@ -1,3 +1,8 @@
+#TSP - Travelling Salemsan Problem
+#Time Complexity - O(n*n*(2^n))
+
+#################################################################################################################################
+
 n = int(input('Enter the number of vertices (> 2): '))
 print('Enter the cost matrix (-1 if no edge exists):')
 c = []
