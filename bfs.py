@@ -1,3 +1,7 @@
+#BFS - Breadth First Traversal
+#Time Complexity - O(V+E) for Adj_List representaion, O(V*V) for Adj_Matrix representation
+
+################################################################################################################################
 import time
 graph=dict()
 n=int(input("Enter no. of nodes : "))
