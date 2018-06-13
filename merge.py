@@ -1,3 +1,9 @@
+#Mergesort - A Divide and Conquer technique based sorting algorithm
+#Time Complexity - O(nlogn)
+#Uses : stable, not in-place external sorting, data-base scenarios
+
+#################################################################################################################################
+
 import time
 import random
 def mergesort(list1):
