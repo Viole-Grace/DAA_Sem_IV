@@ -1,3 +1,10 @@
+#Quicksort -A Divide and Conquer technique based sorting algorithm
+#Time Complexity - Ω(nlogn) = θ(nlogn), O(n*n)
+#Low Space Complexity, and hence is widely attributed as the best non-hybrid sorting algorithm
+#Uses - Fastest nlogn on random data
+
+#################################################################################################################################
+
 import time
 import random
 L = []
