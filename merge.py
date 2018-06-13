@@ -1,5 +1,5 @@
 #Mergesort - A Divide and Conquer technique based sorting algorithm
-#Time Complexity - O(nlogn)
+#Time Complexity - O(nlogn) [O(logn) to divide, O(n) dividing operations = O(n*logn) = O(nlogn). O(n) to merge sorted parts.]
 #Uses : stable, not in-place external sorting, data-base scenarios
 
 #################################################################################################################################
